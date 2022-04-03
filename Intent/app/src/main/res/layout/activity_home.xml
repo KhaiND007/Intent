@@ -28,13 +28,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UserName"
+            android:text="Chào mừng"
             android:textSize="25dp"
             android:textStyle="bold" />
-        <EditText
+        <TextView
             android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:id="@+id/edtUserName"
+            android:id="@+id/tvUserName"
             android:textSize="25dp"
             android:layout_marginStart="20dp"/>
     </LinearLayout>
@@ -42,7 +42,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginTop="20dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

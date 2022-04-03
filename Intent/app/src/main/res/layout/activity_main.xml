@@ -27,5 +27,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="Đăng nhập"
+        android:onClick="Chuyen_Man_Hinh_Dang_Nhap"
         android:textSize="28dp" />
 </LinearLayout>
